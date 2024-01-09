@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "DjangoQuiz/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "DjangoQuiz/wsgi.py"
+      }
+    ]
+}
