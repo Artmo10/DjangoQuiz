@@ -24,7 +24,7 @@ STATICFILES_DIRS = [BASE_DIR / 'static']
 SECRET_KEY = 'django-insecure-l(@9i*c*qt@l&o6*pd5)t-s80-3n#q7s7uv%_2y560!a(93vxr'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['django-quiz-eosin.vercel.app', '*']
 
